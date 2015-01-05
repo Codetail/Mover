@@ -38,8 +38,8 @@ How you can see project uses Dagger for injecting, but in last time coding i sup
 
 
 ###Contributors
-[Asyl](https://github.com/asyl) - Thanks for icon and some code commits
-[SherzodAgzamov](https://github.com/SherzodAgzamov) - Thanks for Testing
+1. [Asyl](https://github.com/asyl) - Thanks for icon and some code commits
+2. [SherzodAgzamov](https://github.com/SherzodAgzamov) - Thanks for Testing
 Also thanks for features requesting :)
 
 
