@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codetail.widget.FrameLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/exp_visible_item_height">
+
+    <ImageView
+        android:layout_gravity="top"
+        android:id="@+id/exp_item_icon"
+        android:layout_width="@dimen/exp_visible_item_height"
+        android:layout_height="@dimen/exp_visible_item_height"
+        android:padding="16dp"
+        />
+
+    <TextView
+        android:id="@+id/exp_item_text"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/exp_visible_item_height"
+        android:layout_marginLeft="@dimen/exp_visible_item_height"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        tools:ignore="RtlHardcoded"
+        />
+
+</codetail.widget.FrameLayoutCompat>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array translatable="false" name="mover_category_list_for_app">
+        <item> </item>
+        <!-- Categories -->
+        <item>humor</item>
+        <item>cinema</item>
+        <item>music</item>
+        <item>tv</item>
+        <item>tech</item>
+        <item>game</item>
+        <item>avto</item>
+        <item>adver</item>
+        <item>anime</item>
+        <item>education</item>
+        <item>sport</item>
+        <!-- Another Section -->
+        <item>latest</item>
+        <item>month</item>
+        <item>recommended</item>
+    </string-array>
+
+    <string-array translatable="false" name="mover_categories_icons">
+        <item>@drawable/category_home</item>
+        <!-- Categories -->
+        <item>@drawable/category_humor</item>
+        <item>@drawable/category_movies</item>
+        <item>@drawable/category_music</item>
+        <item>@drawable/category_tv</item>
+        <item>@drawable/category_tech</item>
+        <item>@drawable/category_games</item>
+        <item>@drawable/category_auto</item>
+        <item>@drawable/category_ads</item>
+        <item>@drawable/category_home</item>
+        <item>@drawable/category_education</item>
+        <item>@drawable/category_sport</item>
+    </string-array>
+
+    <string name="mover_auth_headline">Add Mover.uz account</string>
+    <string name="mover_auth_description">
+        <p>With account you will open access to:</p>
+        <ul>
+            <li>Add comments</li>
+            <li>View your profile</li>
+            <li>Like / Dislike videos</li>
+            <li>View videos like</li>
+        </ul>
+    </string>
+
+</resources>

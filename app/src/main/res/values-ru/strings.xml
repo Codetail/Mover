@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WatchMe</string>
+    <string name="choose_main_categories">Выберите категорию</string>
+    <string name="card_item_show_more_button">Показать еще</string>
+    <string name="section_last_added">Последнее добавленное</string>
+    <string name="section_popular">Популярное</string>
+    <string name="section_recommendations">Рекоммендации</string>
+    <string name="selected_category">%1$s</string>
+    <string name="toolbar_search_hint">Поиск</string>
+
+    <string name="video_views_count">%1$s просмотров</string>
+    <string name="section_request_next_page">Следующая </string>
+    <string name="placeholder_set_login">Имя пользователя</string>
+    <string name="placeholder_set_password">Пароль</string>
+    <string name="sign_in_button">Войти</string>
+
+    <string-array name="main_categories_list">
+        <item>Главная</item>
+        <item>Юмор</item>
+        <item>Кино</item>
+        <item>Музыка</item>
+        <item>ТВ</item>
+        <item>Технологии</item>
+        <item>Игры</item>
+        <item>Автомобили</item>
+        <item>Реклама</item>
+        <item>Аниме</item>
+        <item>Образование</item>
+        <item>Спорт</item>
+    </string-array>
+    <string name="sign_in_button_progress_text">Отправляем…</string>
+    <string name="sign_in_button_complete_text">Авторизован</string>
+    <string name="sign_in_button_error_text">Повторить</string>
+    <string name="sign_in_field_must_be_more_than_4_chars">Необходимо больше 4 символов</string>
+    <string name="sign_in_failed_with_wrong_data_username">Неверное имя</string>
+    <string name="sign_in_failed_with_wrong_data_password">Неверный пароль</string>
+    <string name="sign_in_display_header">Войти</string>
+
+    <string name="search_fragment_search_results">Рельзутаты поиска:</string>
+    <string name="section_paginated_page">Страница %1$s</string>
+    <string name="menu_share_title">Поделиться</string>
+    <string name="choose_video_quality">Выберите качество видео</string>
+    <string name="mover_video_quality_s">Низкое 240p</string>
+    <string name="mover_video_quality_m">Среднее 360p</string>
+    <string name="mover_video_quality_b">Высокое 480p</string>
+    <string name="please_wait_until_qualities_not_fetched">Подожди, ищем лучшее качество для тебя :)</string>
+
+</resources>

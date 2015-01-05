@@ -1,0 +1,87 @@
+<resources>
+
+    <declare-styleable name="WatchMeThemeSettings">
+
+        <attr name="dividerColor" format="color" />
+        <attr name="toolbarActionsPrimaryColor" format="color" />
+        <attr name="textColorSelected" format="color" />
+        <attr name="rippleOverlayColor" format="color" />
+
+        <attr name="navigationActionsPrimaryColor" format="color" />
+        <attr name="navigationActionsAccentColor" format="color" />
+        <attr name="navigationTextColor" format="color" />
+        <attr name="navigationRippleOverlayColor" format="color" />
+
+        <attr name="fabIconColor" format="color" />
+
+    </declare-styleable>
+
+    <style name="WatchMe">
+
+    </style>
+
+    <style name="WatchMe.Dialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <item name="colorPrimary">@color/moverPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/moverPrimaryColorDark</item>
+        <item name="colorAccent">@color/moverAccentColor</item>
+
+        <item name="android:windowBackground">@drawable/dialog_background_mtrl_mult</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <style name="Mover.Toolbar.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/abc_text_size_title_material_toolbar</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="Mover.Toolbar" parent="android:Widget">
+        <item name="titleTextAppearance">@style/Mover.Toolbar.Title</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="titleMargins">4dp</item>
+        <item name="maxButtonHeight">56dp</item>
+        <item name="collapseIcon">?attr/homeAsUpIndicator</item>
+        <item name="collapseContentDescription">@string/abc_toolbar_collapse_description</item>
+        <item name="contentInsetStart">16dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="MoverTheme.Light" parent="Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/mover_window_background</item>
+        <item name="android:textColor">#4D4D4D</item>
+        <item name="android:textColorPrimary">#4D4D4D</item>
+        <item name="textColorSelected">@color/moverSelectedTextColor</item>
+
+        <item name="colorPrimary">@color/moverPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/moverPrimaryColorDark</item>
+        <item name="colorAccent">@color/moverAccentColor</item>
+
+        <item name="rippleOverlayColor">@color/mover_overlay_color</item>
+        <item name="dividerColor">@color/dividerColor_light</item>
+        <item name="fabIconColor">@color/moverFabIconColor</item>
+
+        <item name="cpbStyle">@style/CircularProgressBar</item>
+        <item name="spbStyle">@style/SmoothProgressBar</item>
+
+        <item name="toolbarActionsPrimaryColor">@color/moverToolbarIconsColor</item>
+        <item name="navigationTextColor">@color/navigation_menu_text_color</item>
+        <item name="navigationActionsPrimaryColor">@color/moverToolbarIconsColor</item>
+        <item name="navigationActionsAccentColor">@color/moverAccentColor</item>
+        <item name="navigationRippleOverlayColor">@color/moverNavigationRippleColor</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="adapter_card" type="id" />
+    <item name="adapter_picasso_instance" type="id" />
+
+    <declare-styleable name="CardLayout">
+        <attr name="card_divider" format="dimension" />
+        <attr name="card_dividerColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CardLinearLayout">
+        <attr name="cl_divider" format="dimension" />
+        <attr name="cl_dividerColor" format="color" />
+        <attr name="cl_dividersOffset" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CardLinearLayout_Layout">
+        <attr name="clLayout_dividerOffset" format="dimension" />
+        <attr name="clLayout_dividerEnabled" format="boolean" />
+    </declare-styleable>
+</resources>

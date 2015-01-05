@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/RtlOverlay.Widget.AppCompat.ActionBar.TitleItem">
+
+    <codetail.text.RobotoTextView
+        android:id="@+id/action_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:ellipsize="end"
+        custom:fontFamily="Roboto-Medium"
+        />
+
+    <codetail.text.RobotoTextView
+        android:id="@+id/action_bar_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/abc_action_bar_subtitle_top_margin_material"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:visibility="gone"
+        custom:fontFamily="Roboto-Regular"
+        />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codetail.widget.ExpandableLayout
+    android:id="@+id/toolbar_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="58dp"
+    android:layout_marginTop="?actionBarSize"
+    android:background="?colorPrimary"
+    app:iconColor="?attr/toolbarActionsPrimaryColor"
+    app:textColor="#fff"
+    app:text="@string/choose_main_categories"
+    app:dropdownBackground="#fff"
+    app:dropdownItemTextColor="?android:textColorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

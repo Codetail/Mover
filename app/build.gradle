@@ -1,0 +1,125 @@
+apply plugin: 'com.android.application'
+apply plugin: 'hugo'
+
+def version = 1
+def versionMajor = 0
+def versionMinor = 200
+def versionCodeName = "IS"
+def versionSuffix = "_alpha"
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.1"
+
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    defaultConfig {
+        applicationId "io.codetail.watchme"
+        minSdkVersion 10
+        targetSdkVersion 21
+        versionCode version
+        versionName "${versionCodeName}${versionMajor * 10}$versionMinor$versionSuffix";
+
+        buildConfigField "boolean", "STATISTICS_ENABLED", "true"
+        buildConfigField "boolean", "EXTRAS_LOGGING", "false"
+    }
+
+    signingConfigs {
+        release {
+
+        }
+
+        debug{
+            storeFile file("/Users/Ozodrukh/.android/debug.keystore")
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+            storePassword "android"
+        }
+    }
+
+    buildTypes {
+        developerEdition {
+            debuggable true
+            zipAlignEnabled true
+            minifyEnabled false
+            applicationIdSuffix ".dev"
+            signingConfig signingConfigs.debug
+            buildConfigField "boolean", "STATISTICS_ENABLED", "false"
+            buildConfigField "boolean", "EXTRAS_LOGGING", "true"
+        }
+
+        primaryTesterEdition{
+            debuggable true
+            zipAlignEnabled true
+            shrinkResources true
+            applicationIdSuffix ".pre_release"
+            signingConfig signingConfigs.debug
+        }
+
+        release {
+            minifyEnabled false
+            zipAlignEnabled true
+            debuggable false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':uicomponents')
+    compile project(':jobManager')
+
+    compile 'com.yandex.android:mobmetricalib:1.60'
+
+    compile 'org.jsoup:jsoup:1.7.3'
+
+    compile 'com.jakewharton:butterknife:6.0.0'
+
+    compile 'com.facebook.rebound:rebound:0.3.6'
+
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:recyclerview-v7:21.0.2'
+    compile 'com.android.support:cardview-v7:21.0.2'
+
+    compile 'com.squareup.okhttp:okhttp:2.0.0'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.0.0'
+    compile 'com.squareup.retrofit:retrofit:1.8.0'
+    compile 'com.squareup.picasso:picasso:2.4.0'
+    compile 'com.squareup.dagger:dagger:1.2.1'
+    compile 'com.squareup.dagger:dagger-compiler:1.2.1'
+
+    compile 'com.squareup:otto:1.3.5'
+}
+
+
+File propFile = file('signing.properties');
+if (propFile.exists()) {
+    def Properties props = new Properties()
+    props.load(new FileInputStream(propFile))
+
+    if (props.containsKey('STORE_FILE') && props.containsKey('STORE_PASSWORD') &&
+            props.containsKey('KEY_ALIAS') && props.containsKey('KEY_PASSWORD')) {
+        android.signingConfigs.release.storeFile = file(props['STORE_FILE'])
+        android.signingConfigs.release.storePassword = props['STORE_PASSWORD']
+        android.signingConfigs.release.keyAlias = props['KEY_ALIAS']
+        android.signingConfigs.release.keyPassword = props['KEY_PASSWORD']
+    } else {
+        android.buildTypes.release.signingConfig = null
+    }
+} else {
+    android.buildTypes.release.signingConfig = null
+}
+
+

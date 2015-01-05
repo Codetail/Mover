@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">WatchMe</string>
+
+    <string name="choose_main_categories">Category</string>
+    <string name="selected_category">%1$s</string>
+    <string name="toolbar_search_hint">Search</string>
+
+    <string name="card_item_show_more_button">More</string>
+
+    <string name="section_recommendations">Recommended</string>
+    <string name="section_popular">Popular</string>
+    <string name="section_last_added">Last added</string>
+
+    <string-array name="main_categories_list">
+        <item>Home</item>
+        <item>Humor</item>
+        <item>Cinema</item>
+        <item>Music</item>
+        <item>TV</item>
+        <item>Tech</item>
+        <item>Games</item>
+        <item>Auto</item>
+        <item>Advertisement</item>
+        <item>Anime</item>
+        <item>Education</item>
+        <item>Sport</item>
+    </string-array>
+
+    <string name="video_views_count">%1$s views</string>
+    <string name="section_request_next_page">Next page</string>
+    <string name="placeholder_set_login">Username</string>
+    <string name="placeholder_set_password">Password</string>
+    <string name="sign_in_button">Sign in</string>
+    <string name="sign_in_button_progress_text">Submitting…</string>
+    <string name="sign_in_button_complete_text">Authorized</string>
+    <string name="sign_in_button_error_text">Repeat</string>
+    <string name="sign_in_field_must_be_more_than_4_chars">Must be more than 4 chars</string>
+    <string name="sign_in_failed_with_wrong_data_username">Wrong username</string>
+    <string name="sign_in_failed_with_wrong_data_password">Wrong password</string>
+    <string name="sign_in_display_header">Sign in</string>
+
+    <string name="search_fragment_search_results">Search results:</string>
+    <string name="section_paginated_page">Page %1$s</string>
+    <string name="menu_share_title">Share</string>
+    <string name="choose_video_quality">Choose video quality</string>
+    <string name="mover_video_quality_s">Low 240p</string>
+    <string name="mover_video_quality_m">Medium 360p</string>
+    <string name="mover_video_quality_b">High 480p</string>
+    <string name="please_wait_until_qualities_not_fetched">Please wait until we recognize which qualities are exists :)</string>
+</resources>

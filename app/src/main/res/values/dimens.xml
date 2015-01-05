@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_height_2x">112dp</dimen>
+    <dimen name="thumbnail_width">120dp</dimen>
+    <dimen name="thumbnail_height">80dp</dimen>
+
+</resources>

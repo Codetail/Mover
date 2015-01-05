@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="duration_text_color">#fefefe</color>
+    <color name="placeholder_color">#efefefef</color>
+    <color name="card_background_light">#fafafa</color>
+
+    <color name="dividerColor_light">#1e000000</color>
+
+    <color name="mover_window_background">#efefef</color>
+    <color name="moverPrimaryColor">#607D8B</color>
+    <color name="moverPrimaryColorDark">#455A64</color>
+    <color name="moverAccentColor">#FFF176</color>
+    <color name="moverSelectedTextColor">#FFF176</color>
+    <color name="moverToolbarIconsColor">#deffffff</color>
+    <color name="moverFabIconColor">#86000000</color>
+    <color name="moverNavigationRippleColor">#FFF59D</color>
+
+    <color name="mover_controlNormal">#ffffff</color>
+    <color name="mover_controlActivated">#CFD8DC</color>
+    <color name="mover_controlHighlight">#CFD8DC</color>
+
+</resources>

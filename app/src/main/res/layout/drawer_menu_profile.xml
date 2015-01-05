@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codetail.widget.FrameLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile"
+    android:background="@color/material_deep_teal_200"
+    android:layout_marginBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:background="@drawable/avatar_placeholder"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="56dp"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        tools:text="Jonathan Lee"
+        />
+
+</codetail.widget.FrameLayoutCompat>

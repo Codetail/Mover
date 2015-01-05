@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Floating Action Button -->
+    <dimen name="default_elevation_size">4dp</dimen>
+
+    <color name="acb_color_control_highlight">#3000</color>
+    <color name="acb_color_control_activated">#2000</color>
+    <color name="acb_color_control_normal">#0000</color>
+
+</resources>

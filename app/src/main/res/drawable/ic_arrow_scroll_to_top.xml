@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:auto="http://schemas.android.com/apk/res-auto"
+    auto:width="24dp"
+    auto:height="24dp"
+    auto:viewportWidth="24"
+    auto:viewportHeight="24"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <group
+        auto:rotation="-90"
+        auto:pivotX="12"
+        auto:pivotY="12"
+
+        android:rotation="-90"
+        android:pivotX="12"
+        android:pivotY="12">
+        <path
+            auto:pathData="M0,0 L24,0 L24,24 L0,24 L0,0 Z"
+            android:pathData="M0,0 L24,0 L24,24 L0,24 L0,0 Z" />
+        <path
+            auto:fillColor="#000000"
+            android:fillColor="#000000"
+            auto:pathData="M12,4 L10.585,5.415 L16.17,11 L4,11 L4,13 L16.17,13 L10.585,18.585 L12,20 L20,12
+L12,4 Z"
+            android:pathData="M12,4 L10.585,5.415 L16.17,11 L4,11 L4,13 L16.17,13 L10.585,18.585 L12,20 L20,12
+L12,4 Z" />
+    </group>
+</vector>

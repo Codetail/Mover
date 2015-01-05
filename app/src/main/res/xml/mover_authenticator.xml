@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="codetail.auth.UZ_MOVER"
+    android:icon="@drawable/ic_launcher"
+    android:label="@string/uz_mover_source_label"
+    android:smallIcon="@drawable/ic_launcher" />

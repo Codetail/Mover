@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/toolbar"
+        android:background="@drawable/acb_mtrl_background_shdw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="?colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            android:paddingTop="72dp"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Base.TextAppearance.AppCompat.Headline"
+                android:text="Mover.uz"
+                android:textColor="@color/primary_text_default_material_dark"
+                />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:text="Unlock full access to application"
+                android:textColor="@color/secondary_text_default_material_dark"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/form"
+        android:padding="16dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <codetail.text.MaterialEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/placeholder_set_login"
+            app:floatingLabel="highlight"
+            app:floatingLabelText="@string/placeholder_set_login"
+            app:singleLineEllipsis="true"
+            app:baseColor="#000"
+            app:primaryColor="?colorPrimary"
+            app:errorColor="#F44336"
+            app:maxCharacters="40"
+            app:minCharacters="4"
+            app:accentTypeface="Roboto-Regular"
+            />
+
+
+        <codetail.text.MaterialEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/placeholder_set_password"
+            app:floatingLabel="highlight"
+            app:floatingLabelText="@string/placeholder_set_password"
+            app:singleLineEllipsis="true"
+            app:baseColor="#000"
+            app:primaryColor="?colorPrimary"
+            app:errorColor="#F44336"
+            app:maxCharacters="40"
+            app:minCharacters="4"
+            app:accentTypeface="Roboto-Regular"
+            />
+
+    </LinearLayout>
+
+    <codetail.text.RobotoTextView
+        android:id="@+id/login"
+        android:layout_alignParentBottom="true"
+        android:background="?colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.Body2"
+        android:padding="16dp"
+        android:textAllCaps="true"
+        android:layout_gravity="bottom"
+        android:gravity="right"
+        android:text="@string/sign_in_button"
+        android:textColor="?colorAccent"
+        android:drawablePadding="8dp"
+        />
+
+</RelativeLayout>

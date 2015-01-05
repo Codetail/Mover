@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="toolbar_height">64dp</dimen>
+    <dimen name="toolbar_title_layout_left">80dp</dimen>
+    <dimen name="toolbar_edges_margin">24dp</dimen>
+    <dimen name="toolbar_action_btn_mtrl_size">64dp</dimen>
+
+</resources>

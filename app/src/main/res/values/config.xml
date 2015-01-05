@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="toolbar_shadow_height">17dp</dimen>
+    <dimen name="toolbar_elevation_height">0dp</dimen>
+
+</resources>

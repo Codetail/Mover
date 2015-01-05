@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Floating Action Button (FAB) -->
+    <dimen name="fab_inner_circle_offset">8dp</dimen>
+    <dimen name="fab_action_icon_size">24dp</dimen>
+
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_title_layout_left">72dp</dimen>
+    <dimen name="toolbar_edges_margin">16dp</dimen>
+    <dimen name="toolbar_action_btn_mtrl_size">56dp</dimen>
+
+    <dimen name="acb_home_padding">16dp</dimen>
+    <dimen name="acb_home_size">@dimen/toolbar_height</dimen>
+
+    <!-- ExpandableLayout -->
+    <dimen name="exp_visible_item_height">56dp</dimen>
+    <dimen name="exp_shadow_height">2dp</dimen>
+
+
+    <!-- MaterialEditText -->
+    <dimen name="mtrl_ed_default_padding_top">8dp</dimen>
+    <dimen name="mtrl_ed_default_padding_bottom">8dp</dimen>
+    <dimen name="mtrl_ed_inner_padding_left">0dp</dimen>
+    <dimen name="mtrl_ed_inner_padding_right">0dp</dimen>
+    <dimen name="mtrl_ed_floating_label_text_size">12dp</dimen>
+    <dimen name="mtrl_ed_inner_components_spacing">8dp</dimen>
+    <dimen name="mtrl_ed_bottom_ellipsis_height">4dp</dimen>
+
+</resources>
