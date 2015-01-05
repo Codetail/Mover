@@ -2,7 +2,7 @@
 
 Unofficial client for [local](http://mover.uz) Youtube alternative website, project was closed because of terms of service violation 
 
-<img src="http://i.imgur.com/dZKyCRa.jpg" title="screen#1" height="480" />
+<img src="https://raw.githubusercontent.com/ozodrukh/Mover/master/art/FeaturedArt.png" title="Featured Art"  />
 
 [Screen#1](http://i.imgur.com/HLnPOda.jpg)
 [Screen#2](http://i.imgur.com/dZKyCRa.jpg)
