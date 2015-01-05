@@ -37,6 +37,12 @@ Unofficial client for [local](http://mover.uz) Youtube alternative website, proj
 How you can see project uses Dagger for injecting, but in last time coding i supposed to transfer form dagger to Global constants in this case i made a lot of mistakes.
 
 
+###Contributors
+[Asyl](https://github.com/asyl) - Thanks for icon and some code commits
+[SherzodAgzamov](https://github.com/SherzodAgzamov) - Thanks for Testing
+Also thanks for features requesting :)
+
+
 ### Job
 
 Wanna work in USA, but not resident
