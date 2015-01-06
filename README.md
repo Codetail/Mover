@@ -1,3 +1,5 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Mover-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/1326)
+
 ##Mover
 
 Unofficial client for [local](http://mover.uz) Youtube alternative website, project was closed because of terms of service violation 
