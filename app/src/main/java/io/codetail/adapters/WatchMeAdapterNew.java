@@ -298,9 +298,12 @@ public class WatchMeAdapterNew extends RecyclerView.Adapter<WatchMeAdapterNew.Wa
 
     public void add(CharSequence title, List<Video> videos, int visible){
         synchronized (mLock) {
-            if(visible > videos.size()){
-                throw new IllegalArgumentException(String.format("visible size (%s) must be less than videos size (%s)",
-                        visible, videos.size()));
+            if(videos == null){
+                throw new IllegalStateException("videos must not be null");
+            }
+
+            if(0 >= videos.size() || visible == 0){
+                return;
             }
 
             Section section = new Section();

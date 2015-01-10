@@ -124,8 +124,8 @@ public class CategoryFragment extends MoverRecycleFragment {
 
     @DebugLog
     public void renderMainPage(List<Video> recommends, List<Video> popular, List<Video> videos){
-        mWatchMeAdapter.add(getString(R.string.section_recommendations), recommends, 3);
-        mWatchMeAdapter.add(getString(R.string.section_popular), popular, 3);
+        mWatchMeAdapter.add(getString(R.string.section_recommendations), recommends, Math.min(recommends.size(), 3));
+        mWatchMeAdapter.add(getString(R.string.section_popular), popular, Math.min(popular.size(), 3));
         mWatchMeAdapter.add(getString(R.string.section_last_added), videos, videos.size());
 
         if(!getScrollManager().isToolbarVisible()){

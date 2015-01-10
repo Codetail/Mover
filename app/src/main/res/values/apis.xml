@@ -37,8 +37,8 @@
         <item>@drawable/category_sport</item>
     </string-array>
 
-    <string name="mover_auth_headline">Add Mover.uz account</string>
-    <string name="mover_auth_description">
+    <string translatable="false" name="mover_auth_headline">Add Mover.uz account</string>
+    <string translatable="false" name="mover_auth_description">
         <p>With account you will open access to:</p>
         <ul>
             <li>Add comments</li>
