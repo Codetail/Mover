@@ -36,7 +36,7 @@ Unofficial client for [local](http://mover.uz) Youtube alternative website, proj
 9. [jsoup](http://jsoup.org)
 
 ###Notice
-How you can see project uses Dagger for injecting, but in last time coding i supposed to transfer form dagger to Global constants in this case i made a lot of mistakes.
+How you can see the project uses Dagger for injecting, but in the last time coding I supposed to transfer from dagger to Global constants in this case I made a lot of mistakes.
 
 
 ###Contributors
