@@ -1,6 +1,6 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Mover-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/1326)
 
-##Mover
+## Mover
 
 Unofficial client for [local](http://mover.uz) Youtube alternative website, project was closed because of terms of service violation 
 
@@ -10,7 +10,7 @@ Unofficial client for [local](http://mover.uz) Youtube alternative website, proj
 [Screen#2](http://i.imgur.com/dZKyCRa.jpg)
 [Screen#3](http://i.imgur.com/EKFIVeX.jpg)
 
-###Features:
+### Features:
 1. Material design everywhere
 2. SVG everywhere (thanks [Mr.Vector](https://github.com/telly/MrVector))
 3. Android 2.3 + support
@@ -24,7 +24,7 @@ Unofficial client for [local](http://mover.uz) Youtube alternative website, proj
 11.  Checkout
 
 
-###Dependencies
+### Dependencies
 1. [Picasso](https://github.com/square/picasso)
 2. [OkHttp](https://github.com/square/okhttp)
 3. [Retrofit](https://github.com/square/retrofit) 
@@ -35,11 +35,11 @@ Unofficial client for [local](http://mover.uz) Youtube alternative website, proj
 8. [rebound](https://github.com/facebook/rebound)
 9. [jsoup](http://jsoup.org)
 
-###Notice
+### Notice
 How you can see the project uses Dagger for injecting, but in the last time coding I supposed to transfer from dagger to Global constants in this case I made a lot of mistakes.
 
 
-###Contributors
+### Contributors
 1. [Asyl](https://github.com/asyl) - Thanks for icon and some code commits
 2. [SherzodAgzamov](https://github.com/SherzodAgzamov) - Thanks for Testing
 Also thanks for features requesting :)
@@ -49,7 +49,7 @@ Also thanks for features requesting :)
 
 Wanna work in USA, but not resident
 
-###LICENSE
+### LICENSE
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
